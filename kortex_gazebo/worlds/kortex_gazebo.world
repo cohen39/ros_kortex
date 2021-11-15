@@ -9,7 +9,6 @@
     <include>
       <uri>model://ground_plane</uri>
     </include>
-    <plugin name="gazebo_tutorials" filename="libgazebo_tutorials.so"/>
   </world>
 </sdf>
 

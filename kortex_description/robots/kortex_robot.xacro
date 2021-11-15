@@ -65,6 +65,12 @@
                 <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
                     <legacyModeNS>true</legacyModeNS>
                 </plugin>
+                <plugin filename="libgazebo_ros_moveit_planning_scene.so" name="gazebo_ros_moveit_planning_scene">
+                  <topicName>/planning_scene</topicName>
+                  <sceneName>(noname)+</sceneName>
+                  <robotName>my_gen3</robotName>
+                  <updatePeriod>0.5</updatePeriod>
+                </plugin>
             </gazebo>
 
         </xacro:if>
