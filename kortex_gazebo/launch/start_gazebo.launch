@@ -12,6 +12,7 @@
             <arg name="use_sim_time" value="$(arg use_sim_time)"/>
             <arg name="debug" value="$(arg debug)" />
             <arg name="paused" value="$(arg paused)"/>
+            <arg name="world_name" value="$(find kortex_gazebo)/worlds/kortex_gazebo.world"/>
         </include>
 
     </launch>
